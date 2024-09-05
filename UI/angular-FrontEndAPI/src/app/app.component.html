@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>Angular + REST API .NET</h1>
+  <div class="cards-container">
+    <div class="cards-form">
+      <!-- <form #form="ngForm"(ngSubmit)="OnSubmit()"></form> -->
+       <form>
+
+          <div class="form-group">
+            <label for="">Card holder name</label>
+            <input type="text" name="cardName" [(ngModel)]="card.holderName">
+          </div>
+
+          <div class="form-group">
+            <label for="">Card Number</label>
+            <input type="text" name="cardNumber">
+          </div>
+
+          <div class="form-group form-group-inline">
+
+            <div class="form-group">
+              <label for="">CVC</label>
+              <input type="text" name="cvc">
+            </div>
+
+            <div class="form-group">
+              <label for="">Expire Month</label>
+              <input type="text" name="expireMonth">
+            </div>
+  
+            <div class="form-group">
+              <label for="">Expire Year</label>
+              <input type="text" name="expireYear">
+            </div>
+
+          </div>
+
+       </form>
+    </div>
+  </div>
+</div>

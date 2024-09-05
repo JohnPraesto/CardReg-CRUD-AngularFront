@@ -1,0 +1,49 @@
+.container{
+    padding: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    width: 100%;
+    padding-top: 5em;
+}
+
+.cards-form{
+    width:50%;
+    padding: 2em;
+}
+
+.form-group{
+    margin-bottom: 1em;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-group input[type="text"], .form-group input[type="password"], .form-group input[type="number"]{
+    width: 100%;
+    padding: 0.5em;
+    margin:0.5em;
+    font-size: 1.2em;
+    border-radius: 2px;
+}
+
+.form-group-inline{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-group-inline div{
+    width: 30%;
+}
